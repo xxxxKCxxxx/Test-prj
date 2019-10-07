@@ -6,5 +6,4 @@ python:
 before_install:
   - python -V
 install:
-  - pip install numpy
   - pip install openpyxl
