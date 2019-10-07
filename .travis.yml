@@ -5,3 +5,5 @@ python:
   - 3.7
 before_install:
   - python3 -V
+script:
+  - python3 CI_test.py
