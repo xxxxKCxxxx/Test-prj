@@ -7,3 +7,5 @@ before_install:
   - python -V
 install:
   - pip install openpyxl
+script:
+  - CI-test
