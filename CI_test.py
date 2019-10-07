@@ -1,5 +1,5 @@
-import numpy
-import openpyxl
+import os
+import sys
 
 def main():
   print(__name__)
