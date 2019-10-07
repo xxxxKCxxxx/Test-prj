@@ -1,6 +1,10 @@
 langage: python
 python:
+  - "3.5"
   - "3.6"
+  - "3.7"
+before_install:
+  - python -V
 install:
   - pip install numpy
   - pip install openpyxl
