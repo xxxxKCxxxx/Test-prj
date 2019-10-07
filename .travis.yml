@@ -4,8 +4,8 @@ python:
   - 3.6
   - 3.7
 before_install:
-  - python -V
+  - python3 -V
 install:
-  - pip install openpyxl
+  - pip3 install openpyxl
 script:
   - CI-test
